@@ -44,9 +44,7 @@ a:hover{
 }
 
 @media (max-width: 600px){
-	#btn-mobile{
-		display: block;
-	}
+	
 	#menu{
 		display: block; 	
 		position: absolute;
@@ -70,8 +68,14 @@ a:hover{
 		margin: 0 1rem;
 		border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 	}
-}
-
+	#btn-mobile{
+		display: flex;
+		padding: .5rem 1rem;
+		font-size: 1rem;
+		border: none;
+		background: none;
+		cursor: pointer;
+	}
 
 
 
