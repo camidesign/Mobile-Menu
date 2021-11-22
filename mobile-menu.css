@@ -10,7 +10,7 @@ a{
 }
 
 a:hover{
-	background: #ECECFF;
+	background-color: #DFD3FF;
 }
 
 #logo{
@@ -41,9 +41,10 @@ a:hover{
 
 #btn-mobile{
 	display: none;
+	font-family: Gilroy;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 	#menu{
 		display: block; 	
 		position: absolute;
@@ -87,9 +88,18 @@ a:hover{
 		height: 2px;
 		background: currentColor;
 		margin-top: 5px;
+		transition: .3s;
+		position: relative;
 	}
 	#nav.active #hamburger{
 		border-top-color: transparent;
+	}
+	#nav.active #hamburger::before{
+		transform: rotate(135deg);
+	}
+	#nav.active #hamburger::after{
+		transform: rotate(-135deg);
+		top: -7px;
 	}
 }
 
