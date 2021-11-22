@@ -84,8 +84,12 @@ a:hover{
 		content: '';
 		display: block;
 		width: 20px;
-		height: 2px solid;
-		background: blue;
+		height: 2px;
+		background: currentColor;
+		margin-top: 5px;
+	}
+	#nav.active #hamburger{
+		border-top-color: transparent;
 	}
 }
 
