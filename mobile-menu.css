@@ -48,8 +48,18 @@ a:hover{
 		display: block;
 	}
 	#menu{
-		display: none;
-	}
+		/* display: none; */	
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 70px;
+		right: 0px;
+		background: #E3DAFF;
+		height: calc(100vh - 70px);
+		z-index: 1000;
+
+
+}
 	#nav.active #menu{
 		display: flex;
 	}
