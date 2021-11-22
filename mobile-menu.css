@@ -57,11 +57,12 @@ a:hover{
 		height: 0px;
 		transition: .6s;
 		z-index: 1000;
-
-
+		visibility: hidden;
+		overflow-y: hidden;
 }
 	#nav.active #menu{
 		height: calc(100vh - 70px);
+		visibility: visible;
 	}
 	#menu a{
 		padding: 1rem 0;
