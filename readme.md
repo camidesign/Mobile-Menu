@@ -1,0 +1,1 @@
+This is a project for a responsive menu that turns into a 'hamburger' on smaller screen sizes. 🍔 HTML, CSS and JavaScript is used. 
