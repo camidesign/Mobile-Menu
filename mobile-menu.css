@@ -39,7 +39,15 @@ a:hover{
 	padding: .5rem;
 }
 
+#btn-mobile{
+	display: none;
+}
 
+@media (max-width: 600px){
+	#btn-mobile{
+		display: block;
+	}
+}
 
 
 
