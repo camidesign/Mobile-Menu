@@ -44,7 +44,6 @@ a:hover{
 }
 
 @media (max-width: 600px){
-	
 	#menu{
 		display: block; 	
 		position: absolute;
@@ -57,7 +56,7 @@ a:hover{
 		z-index: 1000;
 		visibility: hidden;
 		overflow-y: hidden;
-}
+	}
 	#nav.active #menu{
 		height: calc(100vh - 70px);
 		visibility: visible;
@@ -75,7 +74,14 @@ a:hover{
 		border: none;
 		background: none;
 		cursor: pointer;
+		gap:  .5rem;
 	}
+	#hamburger {
+		border-top: 2px solid; 
+		width: 20px;
+	}
+}
+
 
 
 
